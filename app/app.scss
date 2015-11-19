@@ -11,8 +11,8 @@
 
 $colors: (
 
-  primary:    #387ef5,
-  secondary:  #32db64,
+  primary:    #00796B,
+  secondary:  #FFC107,
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222,
@@ -23,7 +23,7 @@ $colors: (
 
 // Ionic Sass
 // ---------------------------------
-@import "../jspm_packages/npm/ionic-framework@2.0.0-alpha.34/dist/src/scss/ionic";
+@import "ionic";
 
 
 

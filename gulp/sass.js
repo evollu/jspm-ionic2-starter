@@ -9,7 +9,8 @@ var sourcemaps = require('gulp-sourcemaps');
 
 var sassOptions = {
   errLogToConsole: true,
-  outputStyle: 'expanded'
+  outputStyle: 'expanded',
+  includePaths: [global.IONIC_DIR+'src/scss']
 };
 
 // Compile SASS with sourcemaps + livereload.

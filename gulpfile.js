@@ -14,6 +14,9 @@
 var gulp = require('gulp');
 var requireDir = require('require-dir');
 
+
+global.IONIC_DIR = './jspm_packages/npm/ionic-framework@2.0.0-alpha.34/dist/';
+
 // Specify paths & globbing patterns for tasks.
 global.paths = {
   // HTML sources.
@@ -39,9 +42,13 @@ global.paths = {
 
   // Cordova folder
   'cordova': './cordova',
+  
+  //compiled font folder
+  'fonts': './fonts',
 
   'node_modules': './node_modules',
 };
+
 
 global.app = {
   name: 'NavTeacher',

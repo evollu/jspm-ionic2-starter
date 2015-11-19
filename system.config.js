@@ -29,7 +29,8 @@ System.config({
         }
       },
       "map": {
-        "ionic": "ionic/dist/src/es5/common/ionic"
+        "ionic": "ionic/dist/src/es5/common/ionic",
+        "fonts": "ionic/dist/fonts"
       }
     },
     "npm:ionic-framework@2.0.0-alpha.34": {
@@ -51,6 +52,7 @@ System.config({
   },
 
   map: {
+    "zone.js": "npm:zone.js@0.5.8",
     "clean-css": "npm:clean-css@3.4.8",
     "css": "github:systemjs/plugin-css@0.1.19",
     "ionic": "npm:ionic-framework@2.0.0-alpha.34",

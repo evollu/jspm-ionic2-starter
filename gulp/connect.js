@@ -8,6 +8,7 @@ var path = require('path');
 gulp.task('connect', function() {
   connect.server({
     root: path.resolve(global.paths.src),
+    port: 12345,
     livereload: true
   });
 });

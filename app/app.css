@@ -298,7 +298,7 @@ body {
 }
 
 a {
-  color: #387ef5;
+  color: #00796B;
   background-color: transparent;
 }
 
@@ -381,7 +381,7 @@ strong[primary],
 em[primary],
 sub[primary],
 sup[primary] {
-  color: #387ef5 !important;
+  color: #00796B !important;
 }
 
 h1[secondary], h2[secondary], h3[secondary], h4[secondary], h5[secondary], h6[secondary],
@@ -396,7 +396,7 @@ strong[secondary],
 em[secondary],
 sub[secondary],
 sup[secondary] {
-  color: #32db64 !important;
+  color: #FFC107 !important;
 }
 
 h1[danger], h2[danger], h3[danger], h4[danger], h5[danger], h6[danger],
@@ -665,7 +665,7 @@ ion-loading-icon:before {
 .toolbar button,
 .toolbar [button] {
   background-color: transparent;
-  color: #387ef5;
+  color: #00796B;
   box-shadow: none;
 }
 
@@ -698,7 +698,7 @@ toolbar-content {
 .toolbar [button]:hover:not(.disable-hover),
 .toolbar button.activated,
 .toolbar [button].activated {
-  color: #387ef5;
+  color: #00796B;
   background-color: transparent;
 }
 
@@ -790,8 +790,8 @@ ion-nav-items div {
 }
 
 .toolbar[primary] toolbar-background {
-  background-color: #387ef5;
-  border-color: #0c60ee;
+  background-color: #00796B;
+  border-color: #00463e;
 }
 
 .toolbar[primary] .toolbar-title,
@@ -804,8 +804,8 @@ ion-nav-items div {
 }
 
 .toolbar[secondary] toolbar-background {
-  background-color: #32db64;
-  border-color: #21b94e;
+  background-color: #FFC107;
+  border-color: #d39e00;
 }
 
 .toolbar[secondary] .toolbar-title,
@@ -996,7 +996,7 @@ button,
   user-select: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background: #387ef5;
+  background: #00796B;
   color: #fff;
 }
 
@@ -1009,7 +1009,7 @@ button:hover:not(.disable-hover),
 button.activated,
 [button].activated {
   opacity: 1;
-  background-color: #1165f3;
+  background-color: #00cbb3;
 }
 
 button[block],
@@ -1070,24 +1070,24 @@ a[button] {
 
 button[primary],
 [button][primary] {
-  background-color: #387ef5;
+  background-color: #00796B;
   color: #fff;
 }
 
 button[primary].activated,
 [button][primary].activated {
-  background-color: #1165f3;
+  background-color: #00cbb3;
 }
 
 button[secondary],
 [button][secondary] {
-  background-color: #32db64;
+  background-color: #FFC107;
   color: #fff;
 }
 
 button[secondary].activated,
 [button][secondary].activated {
-  background-color: #22c251;
+  background-color: #dda600;
 }
 
 button[danger],
@@ -1127,7 +1127,7 @@ button[clear], .ios .popup-buttons button, .ios .searchbar-cancel, .md .popup-bu
 [button][clear] {
   border-color: transparent;
   background: transparent;
-  color: #1165f3;
+  color: #00cbb3;
 }
 
 button[clear].activated, .ios .popup-buttons button.activated, .ios .activated.searchbar-cancel, .md .popup-buttons button.activated,
@@ -1139,19 +1139,19 @@ button[clear].activated, .ios .popup-buttons button.activated, .ios .activated.s
 button[clear]:hover:not(.disable-hover), .ios .popup-buttons button:hover:not(.disable-hover), .ios .searchbar-cancel:hover:not(.disable-hover), .md .popup-buttons button:hover:not(.disable-hover),
 [button][clear]:hover:not(.disable-hover) {
   opacity: 0.6;
-  color: #1165f3;
+  color: #00cbb3;
 }
 
 button[clear][secondary], .ios .popup-buttons button[secondary], .ios [secondary].searchbar-cancel, .md .popup-buttons button[secondary],
 [button][clear][secondary] {
   border-color: transparent;
   background: transparent;
-  color: #22c251;
+  color: #dda600;
 }
 
 button[clear][secondary]:hover:not(.disable-hover), .ios .popup-buttons button[secondary]:hover:not(.disable-hover), .ios [secondary].searchbar-cancel:hover:not(.disable-hover), .md .popup-buttons button[secondary]:hover:not(.disable-hover),
 [button][clear][secondary]:hover:not(.disable-hover) {
-  color: #1c9f43;
+  color: #b48700;
 }
 
 button[clear][danger], .ios .popup-buttons button[danger], .ios [danger].searchbar-cancel, .md .popup-buttons button[danger],
@@ -1192,29 +1192,29 @@ button[clear][dark]:hover:not(.disable-hover), .ios .popup-buttons button[dark]:
 
 button[outline],
 [button][outline] {
-  border: 1px solid #387ef5;
+  border: 1px solid #00796B;
   background: transparent;
-  color: #387ef5;
+  color: #00796B;
 }
 
 button[outline].activated,
 [button][outline].activated {
   opacity: 1;
   color: #fff;
-  background-color: #387ef5;
+  background-color: #00796B;
 }
 
 button[secondary][outline],
 [button][secondary][outline] {
-  border-color: #24cf57;
+  border-color: #edb100;
   background: transparent;
-  color: #24cf57;
+  color: #edb100;
 }
 
 button[secondary][outline].activated,
 [button][secondary][outline].activated {
   color: #fff;
-  background-color: #24cf57;
+  background-color: #edb100;
 }
 
 button[danger][outline],
@@ -3337,7 +3337,7 @@ tabbar {
 
 .tab-button:hover:not(.disable-hover),
 .tab-button[aria-selected=true] {
-  color: #387ef5;
+  color: #00796B;
 }
 
 .tab-button-text {
@@ -3413,7 +3413,7 @@ tab-highlight {
 }
 
 tabbar[primary] {
-  background-color: #387ef5;
+  background-color: #00796B;
 }
 
 tabbar[primary] .tab-button {
@@ -3426,7 +3426,7 @@ tabbar[primary] .tab-button[aria-selected=true] {
 }
 
 tabbar[secondary] {
-  background-color: #32db64;
+  background-color: #FFC107;
 }
 
 tabbar[secondary] .tab-button {
@@ -7711,8 +7711,8 @@ icon,
 }
 
 .ios ion-checkbox[aria-checked=true] checkbox-icon {
-  background-color: #387ef5;
-  border-color: #387ef5;
+  background-color: #00796B;
+  border-color: #00796B;
 }
 
 .ios ion-checkbox[aria-checked=true] checkbox-icon:after {
@@ -7750,8 +7750,8 @@ icon,
 }
 
 .ios ion-checkbox[secondary][aria-checked=true] checkbox-icon {
-  background-color: #32db64;
-  border-color: #32db64;
+  background-color: #FFC107;
+  border-color: #FFC107;
 }
 
 .ios ion-checkbox[danger][aria-checked=true] checkbox-icon {
@@ -7771,7 +7771,7 @@ icon,
 
 .ios ion-radio[aria-checked=true] radio-icon:after {
   position: absolute;
-  border: 2px solid #387ef5;
+  border: 2px solid #00796B;
   top: 3px;
   left: 7px;
   width: 4px;
@@ -7785,7 +7785,7 @@ icon,
 }
 
 .ios ion-radio[aria-checked=true] {
-  color: #387ef5;
+  color: #00796B;
 }
 
 .ios ion-radio.item.activated {
@@ -7805,11 +7805,11 @@ icon,
 }
 
 .ios ion-radio[secondary][aria-checked=true] radio-icon:after {
-  border-color: #32db64;
+  border-color: #FFC107;
 }
 
 .ios ion-radio[secondary][aria-checked=true] {
-  color: #32db64;
+  color: #FFC107;
 }
 
 .ios ion-radio[danger][aria-checked=true] radio-icon:after {
@@ -7941,11 +7941,11 @@ icon,
 }
 
 .ios ion-searchbar[primary] .searchbar-cancel {
-  color: #387ef5;
+  color: #00796B;
 }
 
 .ios ion-searchbar[secondary] .searchbar-cancel {
-  color: #32db64;
+  color: #FFC107;
 }
 
 .ios ion-searchbar[danger] .searchbar-cancel {
@@ -7973,23 +7973,23 @@ icon,
 
 .ios ion-segment button[outline],
 .ios ion-segment [button][outline] {
-  border: 1px solid #387ef5;
+  border: 1px solid #00796B;
   background: transparent;
-  color: #387ef5;
+  color: #00796B;
 }
 
 .ios ion-segment button[outline].activated,
 .ios ion-segment [button][outline].activated {
   opacity: 1;
   color: #fff;
-  background-color: #387ef5;
+  background-color: #00796B;
   -webkit-transition: 100ms all linear;
   transition: 100ms all linear;
 }
 
 .ios ion-segment button[outline]:hover:not(.activated),
 .ios ion-segment [button][outline]:hover:not(.activated) {
-  background-color: rgba(56, 126, 245, 0.16);
+  background-color: rgba(0, 121, 107, 0.16);
 }
 
 .ios ion-segment button:first-of-type,
@@ -8029,19 +8029,19 @@ icon,
 }
 
 .ios ion-segment[primary] ion-segment-button[button][outline] {
-  border-color: #387ef5;
+  border-color: #00796B;
   background: transparent;
-  color: #387ef5;
+  color: #00796B;
 }
 
 .ios ion-segment[primary] ion-segment-button[button][outline].activated {
   opacity: 1;
   color: #fff;
-  background-color: #387ef5;
+  background-color: #00796B;
 }
 
 .ios ion-segment[primary] ion-segment-button[button][outline]:hover:not(.activated) {
-  background-color: rgba(56, 126, 245, 0.16);
+  background-color: rgba(0, 121, 107, 0.16);
 }
 
 .ios ion-segment[secondary] ion-segment-button[button] {
@@ -8050,19 +8050,19 @@ icon,
 }
 
 .ios ion-segment[secondary] ion-segment-button[button][outline] {
-  border-color: #32db64;
+  border-color: #FFC107;
   background: transparent;
-  color: #32db64;
+  color: #FFC107;
 }
 
 .ios ion-segment[secondary] ion-segment-button[button][outline].activated {
   opacity: 1;
   color: #fff;
-  background-color: #32db64;
+  background-color: #FFC107;
 }
 
 .ios ion-segment[secondary] ion-segment-button[button][outline]:hover:not(.activated) {
-  background-color: rgba(50, 219, 100, 0.16);
+  background-color: rgba(255, 193, 7, 0.16);
 }
 
 .ios ion-segment[danger] ion-segment-button[button] {
@@ -8150,7 +8150,7 @@ icon,
 }
 
 .ios ion-switch[aria-checked=true] switch-icon {
-  background-color: #387ef5;
+  background-color: #00796B;
 }
 
 .ios ion-switch switch-icon:before {
@@ -8208,7 +8208,7 @@ icon,
 }
 
 .ios ion-switch[secondary][aria-checked=true] switch-icon {
-  background-color: #32db64;
+  background-color: #FFC107;
 }
 
 .ios ion-switch[danger][aria-checked=true] switch-icon {
@@ -8299,11 +8299,11 @@ icon,
 }
 
 .ios tabbar[primary] {
-  border-color: #0c60ee;
+  border-color: #00463e;
 }
 
 .ios tabbar[secondary] {
-  border-color: #21b94e;
+  border-color: #d39e00;
 }
 
 .ios tabbar[danger] {
@@ -8555,7 +8555,7 @@ icon,
 
 .md button[outline] md-ripple,
 .md [button][outline] md-ripple {
-  background: rgba(56, 126, 245, 0.1);
+  background: rgba(0, 121, 107, 0.1);
 }
 
 .md button[clear], .ios .popup-buttons .md button, .md .ios .searchbar-cancel, .ios .md .searchbar-cancel, .md .popup-buttons button,
@@ -8576,7 +8576,7 @@ icon,
 
 .md button[secondary][outline] md-ripple,
 .md [button][secondary][outline] md-ripple {
-  background: rgba(50, 219, 100, 0.2);
+  background: rgba(255, 193, 7, 0.2);
 }
 
 .md button[secondary][outline].activated,
@@ -9049,8 +9049,8 @@ icon,
 }
 
 .md ion-checkbox[aria-checked=true] checkbox-icon {
-  background-color: #387ef5;
-  border-color: #387ef5;
+  background-color: #00796B;
+  border-color: #00796B;
 }
 
 .md ion-checkbox[aria-checked=true] checkbox-icon:after {
@@ -9084,8 +9084,8 @@ icon,
 }
 
 .md ion-checkbox[secondary][aria-checked=true] checkbox-icon {
-  background-color: #32db64;
-  border-color: #32db64;
+  background-color: #FFC107;
+  border-color: #FFC107;
 }
 
 .md ion-checkbox[danger][aria-checked=true] checkbox-icon {
@@ -9130,13 +9130,13 @@ icon,
 
 .md .list ion-input.has-focus:after,
 .md ion-card ion-input.has-focus:after {
-  border-top: 2px solid #387ef5 !important;
+  border-top: 2px solid #00796B !important;
   z-index: 1;
 }
 
 .md .list ion-input.has-focus + ion-input:before,
 .md ion-card ion-input.has-focus + ion-input:before {
-  border-top-color: #387ef5 !important;
+  border-top-color: #00796B !important;
 }
 
 .md .list [stacked-label] ion-label,
@@ -9156,7 +9156,7 @@ icon,
 .md .list [floating-label].has-focus ion-label,
 .md ion-card [stacked-label].has-focus ion-label,
 .md ion-card [floating-label].has-focus ion-label {
-  color: #387ef5;
+  color: #00796B;
 }
 
 .md .list [stacked-label] [text-input],
@@ -9244,7 +9244,7 @@ icon,
 }
 
 .md .prompt-input:focus {
-  border-bottom: 2px solid #387ef5;
+  border-bottom: 2px solid #00796B;
   margin-bottom: 4px;
 }
 
@@ -9277,7 +9277,7 @@ icon,
 }
 
 .md ion-radio[aria-checked=true] radio-icon {
-  border-color: #387ef5;
+  border-color: #00796B;
 }
 
 .md ion-radio radio-icon:after {
@@ -9286,7 +9286,7 @@ icon,
   left: 2px;
   width: 8px;
   height: 8px;
-  background: #387ef5;
+  background: #00796B;
   border-radius: 50%;
   content: '';
   -webkit-transition: -webkit-transform 280ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -9303,7 +9303,7 @@ icon,
 }
 
 .md ion-radio[aria-checked=true] {
-  color: #387ef5;
+  color: #00796B;
 }
 
 .md media-radio {
@@ -9312,15 +9312,15 @@ icon,
 }
 
 .md ion-radio[secondary][aria-checked=true] radio-icon {
-  border-color: #32db64;
+  border-color: #FFC107;
 }
 
 .md ion-radio[secondary][aria-checked=true] radio-icon:after {
-  background: #32db64;
+  background: #FFC107;
 }
 
 .md ion-radio[secondary][aria-checked=true] {
-  color: #32db64;
+  color: #FFC107;
 }
 
 .md ion-radio[danger][aria-checked=true] radio-icon {
@@ -9472,9 +9472,9 @@ icon,
 
 .md ion-segment button.activated,
 .md ion-segment [button].activated {
-  color: #387ef5;
+  color: #00796B;
   background-color: transparent;
-  border-color: #387ef5;
+  border-color: #00796B;
 }
 
 .md .toolbar ion-segment {
@@ -9487,13 +9487,13 @@ icon,
 }
 
 .md ion-segment[primary] ion-segment-button[button][outline] {
-  color: #387ef5;
+  color: #00796B;
 }
 
 .md ion-segment[primary] ion-segment-button[button][outline].activated {
   opacity: 1;
-  color: #387ef5;
-  border-color: #387ef5;
+  color: #00796B;
+  border-color: #00796B;
 }
 
 .md ion-segment[secondary] ion-segment-button[button] {
@@ -9502,13 +9502,13 @@ icon,
 }
 
 .md ion-segment[secondary] ion-segment-button[button][outline] {
-  color: #32db64;
+  color: #FFC107;
 }
 
 .md ion-segment[secondary] ion-segment-button[button][outline].activated {
   opacity: 1;
-  color: #32db64;
-  border-color: #32db64;
+  color: #FFC107;
+  border-color: #FFC107;
 }
 
 .md ion-segment[danger] ion-segment-button[button] {
@@ -9574,7 +9574,7 @@ icon,
 }
 
 .md ion-switch[aria-checked=true] switch-icon {
-  background-color: #b1cdfb;
+  background-color: #00f9dc;
 }
 
 .md ion-switch switch-icon:after {
@@ -9597,17 +9597,17 @@ icon,
 }
 
 .md ion-switch[aria-checked=true] switch-icon:after {
-  background-color: #387ef5;
+  background-color: #00796B;
   -webkit-transform: translate3d(16px, 0, 0);
           transform: translate3d(16px, 0, 0);
 }
 
 .md ion-switch[secondary][aria-checked=true] switch-icon {
-  background-color: #9eeeb6;
+  background-color: #ffe187;
 }
 
 .md ion-switch[secondary][aria-checked=true] switch-icon:after {
-  background-color: #32db64;
+  background-color: #FFC107;
 }
 
 .md ion-switch[danger][aria-checked=true] switch-icon {
@@ -9682,7 +9682,7 @@ icon,
   width: 1px;
   bottom: 0;
   left: 0;
-  background: #387ef5;
+  background: #00796B;
   -webkit-transform-origin: 0 0;
       -ms-transform-origin: 0 0;
           transform-origin: 0 0;
@@ -9782,12 +9782,12 @@ div.selection {
   font-size: 16px;
 }
 
-
 div.selection {
   font-size: 22px;
   display: block;
   text-align: center;
   padding-top: 5%;
 }
+
 
 /*# sourceMappingURL=app.css.map */
