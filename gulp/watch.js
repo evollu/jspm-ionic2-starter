@@ -7,7 +7,7 @@ var util = require('gulp-util');
 // Watch for changes.
 gulp.task('watch', function(){
   gulp.watch([global.paths.ts], ['ts']).on('change', logChanges);
-  gulp.watch([global.paths.sass], ['lintsass', 'sass']).on('change', logChanges);
+  gulp.watch([global.paths.sass], ['sass']).on('change', logChanges);
   gulp.watch([global.paths.html], ['html']).on('change', logChanges);
 });
 
