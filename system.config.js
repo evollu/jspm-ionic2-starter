@@ -1,22 +1,17 @@
 System.config({
   baseURL: "/",
   defaultJSExtensions: true,
-  transpiler: "typescript",
-  typescriptOptions: {
-    "noImplicitAny": false,
-    "tsconfig": true
-  },
   paths: {
     "npm:*": "jspm_packages/npm/*",
     "github:*": "jspm_packages/github/*",
-    "app": "app"
+    "www": "www"
   },
   separateCSS: true,
 
   packages: {
-    "app": {
+    "www": {
       "main": "app",
-      "defaultExtension": "ts",
+      "defaultExtension": "js",
       "meta": {
         "*.ts": {
           "loader": "ts"

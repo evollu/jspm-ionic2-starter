@@ -25,6 +25,8 @@ global.paths = {
   // JS sources.
   'js': './app/**/*.js',
   
+  'ts': './app/**/*.ts',
+  
   // SASS sources.
   'sass': './app/**/*.scss',
   
@@ -35,7 +37,7 @@ global.paths = {
   'src': './',
   
   // Compiled CSS folder.
-  'css': './app',
+  'css': './www',
   
   // Distribution folder.
   'dist': './dist',
@@ -59,4 +61,4 @@ global.app = {
 requireDir('./gulp', { recurse: false });
 
 // Default task; start local server & watch for changes.
-gulp.task('default', ['connect', 'watch']);
+gulp.task('default', ['sass', 'fonts', 'ts', 'connect', 'watch']);

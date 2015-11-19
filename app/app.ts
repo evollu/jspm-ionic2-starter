@@ -11,6 +11,11 @@ import {ListPage} from './list/list';
 })
 
 class MyApp {
+  app;
+  platform;
+  pages;
+  rootPage;
+  
   constructor(app: IonicApp, platform: Platform) {
 
     // set up our app

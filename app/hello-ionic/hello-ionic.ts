@@ -5,6 +5,8 @@ import {Page, NavController} from 'ionic/ionic'
 })
 
 export class HelloIonicPage {
+  nav;
+  
   constructor(nav: NavController) {
     this.nav = nav;
   }
