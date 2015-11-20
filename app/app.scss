@@ -25,6 +25,9 @@ $colors: (
 // ---------------------------------
 @import "ionic";
 
+button[ion-item].active {
+  background-color: map-get($colors, secondary )
+}
 
 
 // Import your Sass files here

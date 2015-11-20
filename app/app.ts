@@ -5,9 +5,11 @@ import {App, IonicApp, Platform} from 'ionic/ionic';
 
 import {HelloIonicPage} from './hello-ionic/hello-ionic';
 import {ListPage} from './list/list';
+import {NgClass} from 'angular2/angular2';
 
 @App({
-  templateUrl: 'app/app.html'
+  templateUrl: 'app/app.html',
+  directives: [NgClass]
 })
 
 class MyApp {
@@ -61,5 +63,6 @@ class MyApp {
     // navigate to the new page if it is not the current page
     let nav = this.app.getComponent('nav');
     nav.setRoot(page.component);
+    this.rootPage = page.component;
   }
 }

@@ -5,3 +5,5 @@ dist
 cordova/wwww
 cordova/platforms
 www
+dist.js
+dist.js.map

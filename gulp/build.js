@@ -44,7 +44,7 @@ gulp.task('buildjs', function (cb) {
     
     builder.reset();
 
-    builder.buildStatic("app", "dist/app.min.js", {minify: true})
+    builder.buildStatic("www", "dist/app.min.js", {minify: true})
     .then(function() {
       console.log('Bundle complete');
       cb();
@@ -57,8 +57,11 @@ gulp.task('buildjs', function (cb) {
 
 // Build SASS for distribution.
 gulp.task('buildsass', function () {
+  var sassOptions = {
+    includePaths: [global.IONIC_DIR+'src/scss']
+  };
   gulp.src(global.paths.sass)
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(concat('app.css'))
     .pipe(autoprefixer())
     // .pipe(minifyCss())
@@ -95,3 +98,9 @@ gulp.task('buildimg', function () {
     }))
     .pipe(gulp.dest(global.paths.dist + '/img'));
 });
+
+gulp.task('bundle', function(cb){
+  var jspm = require('jspm');
+  jspm.setPackagePath('.');
+  jspm.bundle('www - [www/**/*] - [www/**/*!css]', 'build.js', { minify: true, sourceMaps: false }).then(cb);
+})

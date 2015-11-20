@@ -47,7 +47,8 @@
     "imagemin-pngquant": "^4.2.0",
     "jspm": "^0.16.13",
     "require-dir": "^0.3.0",
-    "run-sequence": "^1.1.4"
+    "run-sequence": "^1.1.4",
+    "systemjs-builder": "^0.14.11"
   },
   "dependencies": {
     "cordova": "^5.3.3"
