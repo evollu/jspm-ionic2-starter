@@ -1,15 +1,16 @@
 import "./app.css!";
 import 'zone.js';
-import 'reflect-metadata'
+import 'reflect-metadata';
+import 'web-animations';
 import {App, IonicApp, Platform} from 'ionic/ionic';
 
 import {HelloIonicPage} from './hello-ionic/hello-ionic';
 import {ListPage} from './list/list';
-import {NgClass} from 'angular2/angular2';
+import {IntroPage} from './intro/intro';
+import {LoginPage} from './login/login';
 
 @App({
-  templateUrl: 'app/app.html',
-  directives: [NgClass]
+  templateUrl: 'app/app.html'
 })
 
 class MyApp {
@@ -27,12 +28,13 @@ class MyApp {
 
     // set our app's pages
     this.pages = [
-      { title: 'Hello Ionic', component: HelloIonicPage },
+      { title: 'Intro', component: IntroPage},
+      { title: 'Login', component: LoginPage},
       { title: 'My First List', component: ListPage }
     ];
 
     // make HelloIonicPage the root (or first) page
-    this.rootPage = HelloIonicPage;
+    this.rootPage = IntroPage;
   }
 
   initializeApp() {

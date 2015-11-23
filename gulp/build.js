@@ -102,5 +102,5 @@ gulp.task('buildimg', function () {
 gulp.task('bundle', function(cb){
   var jspm = require('jspm');
   jspm.setPackagePath('.');
-  jspm.bundle('www - [www/**/*] - [www/**/*!css]', 'build.js', { minify: true, sourceMaps: false }).then(cb);
+  jspm.bundle('www - [www/**/*] - [www/**/*!css]', 'build.js', {inject: true}).then(cb);
 })
